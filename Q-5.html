@@ -1,0 +1,158 @@
+<!-- Q - 5 ​In this task, You need to design a user profile card, focusing on rounded corners, box-sizing, background images, and element overflow. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .marg-10 {
+      margin: 10px 0px;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* background-image: url(/img/bg1.jpg); */
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .container {
+      width: 25%;
+      display: flex;
+      padding: 10px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+        rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+      background-color: white;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 100px;
+      aspect-ratio: 1/1;
+    }
+
+    .img {
+      width: 200px;
+    }
+
+    .card {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      background-image: url(/img/bg1.jpg);
+    }
+
+    .details {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 20px;
+    }
+
+    .engage {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 20px;
+    }
+
+    h3 {
+      margin: 10px 0px;
+    }
+
+    p {
+      color: white;
+    }
+
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+    }
+
+    .btn {
+      width: 30%;
+      padding: 10px;
+      border: 2px solid #8ab4f8;
+      border-radius: 5px;
+    }
+
+    .follow-btn:hover {
+      background-color: #8ab4f8;
+      color: white;
+    }
+
+    h3,
+    h4,
+    h1 {
+      color: white;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="img marg-10">
+          <img
+            src="https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?cs=srgb&dl=pexels-andrewpersonaltraining-697509.jpg&fm=jpg"
+            alt=""
+          />
+        </div>
+        <div class="details marg-10">
+          <div class="name">
+            <h1><b>John Smith</b></h1>
+            <p class="marg-10">Blogger</p>
+          </div>
+          <div class="engage">
+            <div class="follower border-right">
+              <h3>2K</h3>
+              <p>Followers</p>
+            </div>
+            <div class="follower border-right">
+              <h3>320</h3>
+              <p>Posts</p>
+            </div>
+            <div class="follower">
+              <h3>24</h3>
+              <p>Following</p>
+            </div>
+          </div>
+          <div class="about">
+            <h4 class="marg-10">Bio-Data</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+              laborum voluptates consequatur, doloribus recusandae in
+              repellendus. Tenetur molestiae sapiente odio!
+            </p>
+          </div>
+          <div class="buttons marg-10">
+            <button class="btn follow-btn">Follow</button>
+            <button class="btn">Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

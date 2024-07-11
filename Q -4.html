@@ -1,0 +1,282 @@
+<!-- Q-4 ​style a blog layout, using properties like margin and padding to control spacing, float to align content, and background color for different sections. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blog-posts</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .marg-10 {
+      margin: 10px 0px;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 80%;
+      display: flex;
+      padding: 20px;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .post-card {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      width: 420px;
+      padding: 20px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .details {
+      border-bottom: 1px dotted gray;
+    }
+
+    .anchor {
+      text-decoration: none;
+      color: gray;
+    }
+
+    .float {
+      display: inline;
+      float: inline-start;
+      padding: 15px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="post-card marg-10">
+        <div class="img">
+          <img
+            src="https://www.usnews.com/object/image/00000162-f3a3-d0d5-a57f-fbf3af9b0000/20-mount-rainier-national-park.jpg?update-time=1677094377415&size=responsive640"
+            alt=""
+          />
+        </div>
+        <div class="details marg-10">
+          <a href="/Q-3.html"
+            >Pay-Per-Click Advertising: The Key to Business Growth</a
+          >
+          <p class="marg-10">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae vitae
+            blanditiis, quaerat nihil accusantium accusamus velit nisi ex,
+            reiciendis quis nam? Natus consectetur ullam voluptate nobis
+            quisquam quae aliquid voluptatem, corrupti, odio perspiciatis
+            ducimus iste. Illo, sequi! Harum, ipsa suscipit?
+          </p>
+        </div>
+        <a href="/index.html" class="marg-10 anchor"
+          ><i class="ri-user-2-fill"></i>&nbsp;Ask A Question</a
+        >
+      </div>
+      <div class="post-card marg-10">
+        <div class="img">
+          <img
+            src="https://www.usnews.com/object/image/00000162-f3a3-d0d5-a57f-fbf3af9b0000/20-mount-rainier-national-park.jpg?update-time=1677094377415&size=responsive640"
+            alt=""
+          />
+        </div>
+        <div class="details marg-10">
+          <a href="/Q-3.html"
+            >Pay-Per-Click Advertising: The Key to Business Growth</a
+          >
+          <p class="marg-10">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae vitae
+            blanditiis, quaerat nihil accusantium accusamus velit nisi ex,
+            reiciendis quis nam? Natus consectetur ullam voluptate nobis
+            quisquam quae aliquid voluptatem, corrupti, odio perspiciatis
+            ducimus iste. Illo, sequi! Harum, ipsa suscipit?
+          </p>
+        </div>
+        <a href="/index.html" class="marg-10 anchor"
+          ><i class="ri-user-2-fill"></i>&nbsp;Ask A Question</a
+        >
+      </div>
+      <div class="post-card marg-10">
+        <div class="img">
+          <img
+            src="https://www.usnews.com/object/image/00000162-f3a3-d0d5-a57f-fbf3af9b0000/20-mount-rainier-national-park.jpg?update-time=1677094377415&size=responsive640"
+            alt=""
+          />
+        </div>
+        <div class="details marg-10">
+          <a href="/Q-3.html"
+            >Pay-Per-Click Advertising: The Key to Business Growth</a
+          >
+          <p class="marg-10">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae vitae
+            blanditiis, quaerat nihil accusantium accusamus velit nisi ex,
+            reiciendis quis nam? Natus consectetur ullam voluptate nobis
+            quisquam quae aliquid voluptatem, corrupti, odio perspiciatis
+            ducimus iste. Illo, sequi! Harum, ipsa suscipit?
+          </p>
+        </div>
+        <a href="/index.html" class="marg-10 anchor"
+          ><i class="ri-user-2-fill"></i>&nbsp;Ask A Question</a
+        >
+      </div>
+      <div class="post-card marg-10">
+        <div class="img">
+          <img
+            src="https://www.usnews.com/object/image/00000162-f3a3-d0d5-a57f-fbf3af9b0000/20-mount-rainier-national-park.jpg?update-time=1677094377415&size=responsive640"
+            alt=""
+          />
+        </div>
+        <div class="details marg-10">
+          <a href="/Q-3.html"
+            >Pay-Per-Click Advertising: The Key to Business Growth</a
+          >
+          <p class="marg-10">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae vitae
+            blanditiis, quaerat nihil accusantium accusamus velit nisi ex,
+            reiciendis quis nam? Natus consectetur ullam voluptate nobis
+            quisquam quae aliquid voluptatem, corrupti, odio perspiciatis
+            ducimus iste. Illo, sequi! Harum, ipsa suscipit?
+          </p>
+        </div>
+        <a href="/index.html" class="marg-10 anchor"
+          ><i class="ri-user-2-fill"></i>&nbsp;Ask A Question</a
+        >
+      </div>
+      <div class="post-card marg-10">
+        <div class="img">
+          <img
+            src="https://www.usnews.com/object/image/00000162-f3a3-d0d5-a57f-fbf3af9b0000/20-mount-rainier-national-park.jpg?update-time=1677094377415&size=responsive640"
+            alt=""
+          />
+        </div>
+        <div class="details marg-10">
+          <a href="/Q-3.html"
+            >Pay-Per-Click Advertising: The Key to Business Growth</a
+          >
+          <p class="marg-10">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae vitae
+            blanditiis, quaerat nihil accusantium accusamus velit nisi ex,
+            reiciendis quis nam? Natus consectetur ullam voluptate nobis
+            quisquam quae aliquid voluptatem, corrupti, odio perspiciatis
+            ducimus iste. Illo, sequi! Harum, ipsa suscipit?
+          </p>
+        </div>
+        <a href="/index.html" class="marg-10 anchor"
+          ><i class="ri-user-2-fill"></i>&nbsp;Ask A Question</a
+        >
+      </div>
+      <div class="post-card marg-10">
+        <div class="img">
+          <img
+            src="https://www.usnews.com/object/image/00000162-f3a3-d0d5-a57f-fbf3af9b0000/20-mount-rainier-national-park.jpg?update-time=1677094377415&size=responsive640"
+            alt=""
+          />
+        </div>
+        <div class="details marg-10">
+          <a href="/Q-3.html"
+            >Pay-Per-Click Advertising: The Key to Business Growth</a
+          >
+          <p class="marg-10">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae vitae
+            blanditiis, quaerat nihil accusantium accusamus velit nisi ex,
+            reiciendis quis nam? Natus consectetur ullam voluptate nobis
+            quisquam quae aliquid voluptatem, corrupti, odio perspiciatis
+            ducimus iste. Illo, sequi! Harum, ipsa suscipit?
+          </p>
+        </div>
+        <a href="/index.html" class="marg-10 anchor"
+          ><i class="ri-user-2-fill"></i>&nbsp;Ask A Question</a
+        >
+      </div>
+      <div class="post-card marg-10">
+        <div class="img">
+          <img
+            src="https://www.usnews.com/object/image/00000162-f3a3-d0d5-a57f-fbf3af9b0000/20-mount-rainier-national-park.jpg?update-time=1677094377415&size=responsive640"
+            alt=""
+          />
+        </div>
+        <div class="details marg-10">
+          <a href="/Q-3.html"
+            >Pay-Per-Click Advertising: The Key to Business Growth</a
+          >
+          <p class="marg-10">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae vitae
+            blanditiis, quaerat nihil accusantium accusamus velit nisi ex,
+            reiciendis quis nam? Natus consectetur ullam voluptate nobis
+            quisquam quae aliquid voluptatem, corrupti, odio perspiciatis
+            ducimus iste. Illo, sequi! Harum, ipsa suscipit?
+          </p>
+        </div>
+        <a href="/index.html" class="marg-10 anchor"
+          ><i class="ri-user-2-fill"></i>&nbsp;Ask A Question</a
+        >
+      </div>
+      <div class="post-card marg-10">
+        <div class="img">
+          <img
+            src="https://www.usnews.com/object/image/00000162-f3a3-d0d5-a57f-fbf3af9b0000/20-mount-rainier-national-park.jpg?update-time=1677094377415&size=responsive640"
+            alt=""
+          />
+        </div>
+        <div class="details marg-10">
+          <a href="/Q-3.html"
+            >Pay-Per-Click Advertising: The Key to Business Growth</a
+          >
+          <p class="marg-10">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae vitae
+            blanditiis, quaerat nihil accusantium accusamus velit nisi ex,
+            reiciendis quis nam? Natus consectetur ullam voluptate nobis
+            quisquam quae aliquid voluptatem, corrupti, odio perspiciatis
+            ducimus iste. Illo, sequi! Harum, ipsa suscipit?
+          </p>
+        </div>
+        <a href="/index.html" class="marg-10 anchor"
+          ><i class="ri-user-2-fill"></i>&nbsp;Ask A Question</a
+        >
+      </div>
+      <div class="post-card marg-10">
+        <div class="img">
+          <img
+            src="https://www.usnews.com/object/image/00000162-f3a3-d0d5-a57f-fbf3af9b0000/20-mount-rainier-national-park.jpg?update-time=1677094377415&size=responsive640"
+            alt=""
+          />
+        </div>
+        <div class="details marg-10">
+          <a href="/Q-3.html"
+            >Pay-Per-Click Advertising: The Key to Business Growth</a
+          >
+          <p class="marg-10">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae vitae
+            blanditiis, quaerat nihil accusantium accusamus velit nisi ex,
+            reiciendis quis nam? Natus consectetur ullam voluptate nobis
+            quisquam quae aliquid voluptatem, corrupti, odio perspiciatis
+            ducimus iste. Illo, sequi! Harum, ipsa suscipit?
+          </p>
+        </div>
+        <a href="/index.html" class="marg-10 anchor"
+          ><i class="ri-user-2-fill"></i>&nbsp;Ask A Question</a
+        >
+      </div>
+    </div>
+    <div class="float">
+      <a href="" class="float anchor">Read More >></a>
+    </div>
+  </body>
+</html>
